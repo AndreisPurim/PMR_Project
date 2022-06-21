@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ToggleButton;
@@ -12,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.vosk.LibVosk;
 import org.vosk.LogLevel;
 import org.vosk.Model;
@@ -21,14 +24,23 @@ import org.vosk.android.SpeechService;
 import org.vosk.android.StorageService;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class SpeechToText2Activity extends Activity implements RecognitionListener {
 
-
+    private final String cat = "SPEECH_ACTIVITY";
     private TextView resultView;
+    private TextView txt1;
+    private TextView txt2;
+    private TextView txt3;
     private Model model;
     private SpeechService speechService;
     private static final int PERMISSIONS_REQUEST_RECORD_AUDIO = 1;
+    private Queue<String> queue;
+
 
     @Override
     public void onCreate(Bundle state) {
@@ -36,6 +48,10 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
         setContentView(R.layout.activity_speeck_to_text2);
 
         resultView = findViewById(R.id.result_text);
+        txt1 = findViewById(R.id.txt1);
+        txt2 = findViewById(R.id.txt2);
+        txt3 = findViewById(R.id.txt3);
+        queue = new LinkedList<>();
 
         findViewById(R.id.recognize_mic).setOnClickListener(view -> recognizeMicrophone());
         ((ToggleButton) findViewById(R.id.pause)).setOnCheckedChangeListener((view, isChecked) -> pause(isChecked));
@@ -96,17 +112,57 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
 
     @Override
     public void onPartialResult(String hypothesis) {
-        resultView.append(hypothesis + "\n");
+
+        try {
+            JSONObject json = new JSONObject(hypothesis);
+            Log.i(cat, "Partial Result: <"+json.getString("partial") + ">");
+            //resultView.append("Partial Result: "+json.getString("partial") + "\n");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Override
     public void onResult(String hypothesis) {
-        resultView.append(hypothesis + "\n");
+        try {
+            JSONObject json = new JSONObject(hypothesis);
+            String text = json.getString("text");
+            Log.i(cat, "onResult: <"+ text + ">");
+            if(queue.size() > 3){
+                queue.remove();
+            }
+            queue.add(text);
+            List list = new ArrayList<String>();
+            for(String el : queue){
+                list.add(el);
+            }
+
+            txt1.setText(list.get(0).toString());
+            if(list.size() > 1) {
+                txt2.setText(list.get(1).toString());
+            }
+            if(list.size()>2){
+                txt3.setText(list.get(2).toString());
+            }
+
+            //resultView.append("onResult: "+text + "\n");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Override
     public void onFinalResult(String hypothesis) {
-        resultView.append(hypothesis + "\n");
+        try {
+            JSONObject json = new JSONObject(hypothesis);
+            Log.i(cat, "onFinalResult: "+json + "\n");
+            //resultView.append("onFinalResult: "+json + "\n");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
     }
 
     @Override
