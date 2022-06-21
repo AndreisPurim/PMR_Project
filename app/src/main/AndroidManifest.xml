@@ -36,18 +36,22 @@
         android:allowBackup="true"
         android:taskAffinity=""
         tools:ignore="AllowBackup">
-
         <activity
-            android:name=".MainActivity"
+            android:name=".SeeActivity"
             android:clearTaskOnLaunch="true"
             android:theme="@style/AppTheme"
-            android:exported="true"
+            android:exported="false"
             android:icon="@mipmap/ic_launcher"
             android:rotationAnimation="seamless"
             android:resizeableActivity="true"
             android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-            tools:targetApi="O">
-
+            tools:targetApi="O"/>
+        <activity
+            android:name=".SpeechToTextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true">
             <!-- Main app intent filter -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,6 +5,10 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f6181ca2109cd9013b36da9c88c62927/transformed/jetified-tensorflow-lite-task-vision-0.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f6181ca2109cd9013b36da9c88c62927/transformed/jetified-tensorflow-lite-task-vision-0.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f6181ca2109cd9013b36da9c88c62927/transformed/jetified-tensorflow-lite-task-vision-0.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/f6181ca2109cd9013b36da9c88c62927/transformed/jetified-tensorflow-lite-task-vision-0.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/95b2e5e28cab6d34838c14cde4147971/transformed/jetified-tensorflow-lite-task-vision-0.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/95b2e5e28cab6d34838c14cde4147971/transformed/jetified-tensorflow-lite-task-vision-0.4.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/95b2e5e28cab6d34838c14cde4147971/transformed/jetified-tensorflow-lite-task-vision-0.4.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

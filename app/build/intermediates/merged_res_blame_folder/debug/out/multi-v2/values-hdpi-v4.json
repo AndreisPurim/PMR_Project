@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-30:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-3:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/andreis/.gradle/caches/transforms-3/dcf957747eae5903be1dd1a9c1bb2879/transformed/appcompat-1.3.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "D:\\androidavd\\.gradle\\caches\\transforms-3\\8402ef09d06e3c57f6bd3dfd3eb3e367\\transformed\\appcompat-1.3.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
