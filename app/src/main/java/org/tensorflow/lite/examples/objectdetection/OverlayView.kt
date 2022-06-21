@@ -17,17 +17,13 @@
 package org.tensorflow.lite.examples.objectdetection
 
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.Rect
-import android.graphics.RectF
+import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
 import androidx.core.content.ContextCompat
-import java.util.LinkedList
-import kotlin.math.max
 import org.tensorflow.lite.task.vision.detector.Detection
+import java.util.*
+import kotlin.math.max
 
 class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
 
@@ -35,6 +31,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     private var boxPaint = Paint()
     private var textBackgroundPaint = Paint()
     private var textPaint = Paint()
+    private var resultPaint = Paint()
 
     private var scaleFactor: Float = 1f
 
@@ -61,6 +58,10 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         textPaint.style = Paint.Style.FILL
         textPaint.textSize = 50f
 
+        resultPaint.color = Color.BLACK
+        resultPaint.style = Paint.Style.FILL
+        resultPaint.textSize = 100f
+
         boxPaint.color = ContextCompat.getColor(context!!, R.color.bounding_box_color)
         boxPaint.strokeWidth = 8F
         boxPaint.style = Paint.Style.STROKE
@@ -68,6 +69,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
 
     override fun draw(canvas: Canvas) {
         super.draw(canvas)
+        val xPos = width / 2f
 
         for (result in results) {
             val boundingBox = result.boundingBox
@@ -82,6 +84,8 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             canvas.drawRect(drawableRect, boxPaint)
 
             // Create text to display alongside detected objects
+            val lettre = result.categories[0].label
+
             val drawableText =
                 result.categories[0].label + " " +
                         String.format("%.2f", result.categories[0].score)
@@ -100,6 +104,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
 
             // Draw text for detected object
             canvas.drawText(drawableText, left, top + bounds.height(), textPaint)
+            canvas.drawText(lettre, xPos, 50F, resultPaint)
         }
     }
 
@@ -114,6 +119,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         // the size that the captured images will be displayed.
         scaleFactor = max(width * 1f / imageWidth, height * 1f / imageHeight)
     }
+
 
     companion object {
         private const val BOUNDING_RECT_TEXT_PADDING = 8

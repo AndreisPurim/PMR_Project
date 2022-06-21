@@ -44,10 +44,8 @@
     </string-array>
 
     <string-array name="models_spinner_titles">
-        <item>MobileNet V1</item>
-        <item>EfficientDet Lite0</item>
-        <item>EfficientDet Lite1</item>
-        <item>EfficientDet Lite2</item>
+        <item>Signs</item>
+        <item>Objets</item>
     </string-array>
     <string name="tap_to_translate">Tap to translate</string>
     <string name="text_sign_lang_rec">what he/she says</string>

@@ -302,6 +302,18 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
       imageHeight: Int,
       imageWidth: Int
     ) {
+        if (results.isNullOrEmpty()) {
+            Log.d("DEBUG", "Empty list")
+        }
+        else {
+            var counter = 0
+            for (result in results) {
+                Log.d("RESULTS", "Result number $counter")
+                Log.d("RESULTS", result.categories[0].label)
+                counter++
+            }
+        }
+
         activity?.runOnUiThread {
             fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
                             String.format("%d ms", inferenceTime)
