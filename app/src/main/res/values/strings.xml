@@ -52,4 +52,9 @@
     <string name="tap_to_translate">Tap to translate</string>
     <string name="text_sign_lang_rec">what he/she says</string>
     <string name="sign_language">sign language</string>
+    <string name="recognize_file">Recognize File</string>
+    <string name="recognize_mic">Recognize Mic</string>
+    <string name="pause">Pause</string>
+    <string name="continueRecognition">Start</string>
+    <string name="ready">Ready</string>
 </resources>

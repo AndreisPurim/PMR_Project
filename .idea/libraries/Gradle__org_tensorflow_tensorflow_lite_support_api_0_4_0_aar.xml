@@ -5,10 +5,13 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0fd185c6167deb72ff3c11964eb0b1f/transformed/jetified-tensorflow-lite-support-api-0.4.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0fd185c6167deb72ff3c11964eb0b1f/transformed/jetified-tensorflow-lite-support-api-0.4.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f0fd185c6167deb72ff3c11964eb0b1f/transformed/jetified-tensorflow-lite-support-api-0.4.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/f0fd185c6167deb72ff3c11964eb0b1f/transformed/jetified-tensorflow-lite-support-api-0.4.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/res" />
+      <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/f0fd185c6167deb72ff3c11964eb0b1f/transformed/jetified-tensorflow-lite-support-api-0.4.0/res" />
+      <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1f0320cee19255cc2fae7f9d0ea9e532/transformed/jetified-tensorflow-lite-support-api-0.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

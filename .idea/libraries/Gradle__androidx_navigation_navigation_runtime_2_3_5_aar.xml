@@ -4,14 +4,17 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bfee7ce8ec2467edce2cff750d32f74c/transformed/navigation-runtime-2.3.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bfee7ce8ec2467edce2cff750d32f74c/transformed/navigation-runtime-2.3.5/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bfee7ce8ec2467edce2cff750d32f74c/transformed/navigation-runtime-2.3.5/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/res" />
-      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/res" />
+      <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cbf5c5eaac777592c0e7b331d92c15ea/transformed/navigation-runtime-2.3.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime/2.3.5/4f74ea56cca52bece088c25ea260082a3b264d38/navigation-runtime-2.3.5-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime/2.3.5/4f74ea56cca52bece088c25ea260082a3b264d38/navigation-runtime-2.3.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/androidavd/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime/2.3.5/4f74ea56cca52bece088c25ea260082a3b264d38/navigation-runtime-2.3.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

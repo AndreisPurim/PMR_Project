@@ -4,14 +4,17 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/94d55adfac9c38edece22c4f237d7a03/transformed/navigation-ui-2.3.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/94d55adfac9c38edece22c4f237d7a03/transformed/navigation-ui-2.3.5/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/94d55adfac9c38edece22c4f237d7a03/transformed/navigation-ui-2.3.5/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/res" />
-      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/res" />
+      <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/92c0eaa2613050b0fed8600cf7a46d79/transformed/navigation-ui-2.3.5/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-ui/2.3.5/c3b1c72fb42a6c6ea70970fa444614a2aaa64742/navigation-ui-2.3.5-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-ui/2.3.5/c3b1c72fb42a6c6ea70970fa444614a2aaa64742/navigation-ui-2.3.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/androidavd/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-ui/2.3.5/c3b1c72fb42a6c6ea70970fa444614a2aaa64742/navigation-ui-2.3.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

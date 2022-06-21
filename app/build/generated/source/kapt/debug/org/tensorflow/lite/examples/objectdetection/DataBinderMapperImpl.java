@@ -16,14 +16,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import org.tensorflow.lite.examples.objectdetection.databinding.ActivityHomePageBindingImpl;
+import org.tensorflow.lite.examples.objectdetection.databinding.ActivitySpeeckToText2BindingImpl;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYHOMEPAGE = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_ACTIVITYSPEECKTOTEXT2 = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(org.tensorflow.lite.examples.objectdetection.R.layout.activity_home_page, LAYOUT_ACTIVITYHOMEPAGE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(org.tensorflow.lite.examples.objectdetection.R.layout.activity_speeck_to_text2, LAYOUT_ACTIVITYSPEECKTOTEXT2);
   }
 
   @Override
@@ -40,6 +44,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityHomePageBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_home_page is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYSPEECKTOTEXT2: {
+          if ("layout/activity_speeck_to_text2_0".equals(tag)) {
+            return new ActivitySpeeckToText2BindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_speeck_to_text2 is invalid. Received: " + tag);
         }
       }
     }
@@ -94,10 +104,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
       sKeys.put("layout/activity_home_page_0", org.tensorflow.lite.examples.objectdetection.R.layout.activity_home_page);
+      sKeys.put("layout/activity_speeck_to_text2_0", org.tensorflow.lite.examples.objectdetection.R.layout.activity_speeck_to_text2);
     }
   }
 }
