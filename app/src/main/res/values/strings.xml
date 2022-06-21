@@ -57,4 +57,5 @@
     <string name="pause">Pause</string>
     <string name="continueRecognition">Start</string>
     <string name="ready">Ready</string>
+    <string name="signification_des_signes">Signification des signes</string>
 </resources>
