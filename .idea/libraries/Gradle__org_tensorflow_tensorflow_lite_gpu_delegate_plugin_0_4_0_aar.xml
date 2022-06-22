@@ -9,9 +9,10 @@
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/bc726b7363f5c018252d15586288c100/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/bc726b7363f5c018252d15586288c100/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/bc726b7363f5c018252d15586288c100/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bc726b7363f5c018252d15586288c100/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bc726b7363f5c018252d15586288c100/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bc726b7363f5c018252d15586288c100/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7cd76ea0e508769c38c21090cafc21b/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7cd76ea0e508769c38c21090cafc21b/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c7cd76ea0e508769c38c21090cafc21b/transformed/jetified-tensorflow-lite-gpu-delegate-plugin-0.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

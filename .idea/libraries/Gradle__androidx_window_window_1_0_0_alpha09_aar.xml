@@ -7,9 +7,9 @@
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/98b38bfa76bebc81001a75db8d734cee/transformed/jetified-window-1.0.0-alpha09/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/98b38bfa76bebc81001a75db8d734cee/transformed/jetified-window-1.0.0-alpha09/res" />
       <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/98b38bfa76bebc81001a75db8d734cee/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/98b38bfa76bebc81001a75db8d734cee/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/98b38bfa76bebc81001a75db8d734cee/transformed/jetified-window-1.0.0-alpha09/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/98b38bfa76bebc81001a75db8d734cee/transformed/jetified-window-1.0.0-alpha09/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -78,7 +78,6 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
     }
 
 
-
     private void recognizeMicrophone() {
         if (speechService != null) {
             speechService.stop();
@@ -128,7 +127,7 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
 
         try {
             JSONObject json = new JSONObject(hypothesis);
-            Log.i(cat, "Partial Result: <"+json.getString("partial") + ">");
+            Log.i(cat, "Partial Result: <" + json.getString("partial") + ">");
             //resultView.append("Partial Result: "+json.getString("partial") + "\n");
         } catch (JSONException e) {
             e.printStackTrace();
@@ -141,21 +140,25 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
         try {
             JSONObject json = new JSONObject(hypothesis);
             String text = json.getString("text");
-            Log.i(cat, "onResult: <"+ text + ">");
+            Log.i(cat, "onResult: <" + text + ">");
 
             queue[0] = queue[1];
             queue[1] = queue[2];
             queue[2] = text;
 
             Log.i(cat, "ADD ON QUEUE");
-            if(queue[0] != "@@@") {
+            if (queue[0] == "@@@") {
+                if (queue[1] == "@@@") {
+                    txt1.setText(queue[2]);
+                } else {
+                    txt1.setText(queue[1]);
+                    txt2.setText(queue[2]);
+                }
+            } else {
                 txt1.setText(queue[0]);
-            }
-            if(queue[1] != "@@@") {
                 txt2.setText(queue[1]);
-            }
-            if(queue[2] != "@@@"){
                 txt3.setText(queue[2]);
+
             }
             Log.i(cat, "FINISHED PROCESSING!!");
             //resultView.append("onResult: "+text + "\n");
@@ -169,7 +172,7 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
     public void onFinalResult(String hypothesis) {
         try {
             JSONObject json = new JSONObject(hypothesis);
-            Log.i(cat, "onFinalResult: "+json + "\n");
+            Log.i(cat, "onFinalResult: " + json + "\n");
             //resultView.append("onFinalResult: "+json + "\n");
         } catch (JSONException e) {
             e.printStackTrace();

@@ -3,7 +3,7 @@
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/707d3d35ea524c41cba4ce846b8dd357/transformed/jetified-camera-view-1.1.0-beta03/annotations.zip!/" />
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/da10972e73711100145c0a8fcde1c966/transformed/jetified-camera-view-1.1.0-beta03/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/707d3d35ea524c41cba4ce846b8dd357/transformed/jetified-camera-view-1.1.0-beta03/jars/classes.jar!/" />
@@ -12,9 +12,9 @@
       <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/res" />
       <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6c4e3eae369ca9a68e330a699fe66e3a/transformed/jetified-camera-view-1.1.0-beta03/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/da10972e73711100145c0a8fcde1c966/transformed/jetified-camera-view-1.1.0-beta03/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/da10972e73711100145c0a8fcde1c966/transformed/jetified-camera-view-1.1.0-beta03/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/da10972e73711100145c0a8fcde1c966/transformed/jetified-camera-view-1.1.0-beta03/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

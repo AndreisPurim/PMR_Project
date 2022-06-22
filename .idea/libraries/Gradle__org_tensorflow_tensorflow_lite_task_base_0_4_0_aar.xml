@@ -10,8 +10,9 @@
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/1d75fe4b2270f7aa4d92c68e32ded321/transformed/jetified-tensorflow-lite-task-base-0.4.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/androidavd/.gradle/caches/transforms-3/1d75fe4b2270f7aa4d92c68e32ded321/transformed/jetified-tensorflow-lite-task-base-0.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d75fe4b2270f7aa4d92c68e32ded321/transformed/jetified-tensorflow-lite-task-base-0.4.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1d75fe4b2270f7aa4d92c68e32ded321/transformed/jetified-tensorflow-lite-task-base-0.4.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d75fe4b2270f7aa4d92c68e32ded321/transformed/jetified-tensorflow-lite-task-base-0.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/04c56c19c864a9413eef8d2c9040770b/transformed/jetified-tensorflow-lite-task-base-0.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/04c56c19c864a9413eef8d2c9040770b/transformed/jetified-tensorflow-lite-task-base-0.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/04c56c19c864a9413eef8d2c9040770b/transformed/jetified-tensorflow-lite-task-base-0.4.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

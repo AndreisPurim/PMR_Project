@@ -28,23 +28,23 @@
 16-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:11:22-68
 17
 18    <uses-feature
-18-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:22:5-24:36
+18-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:22:5-24:36
 19        android:name="android.hardware.camera.autofocus"
-19-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:23:9-57
+19-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:23:9-57
 20        android:required="false" />
-20-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:24:9-33
+20-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:24:9-33
 21    <uses-feature
-21-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:25:5-27:36
+21-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:25:5-27:36
 22        android:name="android.hardware.camera.front"
-22-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:26:9-53
+22-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:26:9-53
 23        android:required="false" />
-23-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:27:9-33
+23-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:27:9-33
 24    <uses-feature
-24-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:28:5-30:36
+24-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:28:5-30:36
 25        android:name="android.hardware.microphone"
-25-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:29:9-51
+25-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:29:9-51
 26        android:required="false" />
-26-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\54e2057d186f47ba2fd8249697ed8384\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:30:9-33
+26-->[com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:30:9-33
 27
 28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -54,7 +54,7 @@
 32        android:allowBackup="true"
 32-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:14:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.6.0] C:\Users\mathm\.gradle\caches\transforms-3\25f2b85b611d80e2c4a28c7b2b8a2ee7\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+33-->[androidx.core:core:1.6.0] C:\Users\mathm\.gradle\caches\transforms-3\0eb31fd9ac476431ac36498b7fd79075\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
 35-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:15:9-43
@@ -124,51 +124,51 @@
 70        </activity>
 71
 72        <uses-library
-72-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\98b38bfa76bebc81001a75db8d734cee\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+72-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
 73            android:name="androidx.window.extensions"
-73-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\98b38bfa76bebc81001a75db8d734cee\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+73-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
 74            android:required="false" />
-74-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\98b38bfa76bebc81001a75db8d734cee\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+74-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
 75        <uses-library
-75-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\98b38bfa76bebc81001a75db8d734cee\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+75-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
 76            android:name="androidx.window.sidecar"
-76-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\98b38bfa76bebc81001a75db8d734cee\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+76-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
 77            android:required="false" />
-77-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\98b38bfa76bebc81001a75db8d734cee\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+77-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
 78
 79        <service
-79-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\60faa905d3a63844c39ebb600445b704\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+79-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
 80            android:name="androidx.camera.core.impl.MetadataHolderService"
-80-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\60faa905d3a63844c39ebb600445b704\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+80-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
 81            android:enabled="false"
-81-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\60faa905d3a63844c39ebb600445b704\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+81-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
 82            android:exported="false" >
-82-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\60faa905d3a63844c39ebb600445b704\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+82-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
 83            <meta-data
-83-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\60faa905d3a63844c39ebb600445b704\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+83-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
 84                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-84-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\60faa905d3a63844c39ebb600445b704\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+84-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
 85                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-85-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\60faa905d3a63844c39ebb600445b704\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+85-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
 86        </service>
 87
 88        <provider
-88-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\ac76e1ec61f807f6ae4252e614e52709\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 89            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-89-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\ac76e1ec61f807f6ae4252e614e52709\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+89-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 90            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
-90-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\ac76e1ec61f807f6ae4252e614e52709\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+90-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
 91            android:exported="false"
-91-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\ac76e1ec61f807f6ae4252e614e52709\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+91-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
 92            android:multiprocess="true" />
-92-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\ac76e1ec61f807f6ae4252e614e52709\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+92-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
 93
 94        <meta-data
-94-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\f2817167bba0391e31d9df60d45f8d0f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+94-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
 95            android:name="com.google.android.gms.version"
-95-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\f2817167bba0391e31d9df60d45f8d0f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+95-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
 96            android:value="@integer/google_play_services_version" />
-96-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\f2817167bba0391e31d9df60d45f8d0f\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+96-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
 97    </application>
 98
 99</manifest>

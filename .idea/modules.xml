@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/hearme2.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/hearme2.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/hearme2.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/hearme2.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/hearme2.models.iml" filepath="$PROJECT_DIR$/.idea/modules/models/hearme2.models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/hearme2.models.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/models/hearme2.models.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/hearme2.models.main.iml" filepath="$PROJECT_DIR$/.idea/modules/models/hearme2.models.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/hearme2.models.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/models/hearme2.models.unitTest.iml" />
     </modules>
   </component>
 </project>
