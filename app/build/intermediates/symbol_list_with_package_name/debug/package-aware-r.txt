@@ -1604,7 +1604,6 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
-id recognize_file
 id recognize_mic
 id rectangles
 id result_text
@@ -1690,6 +1689,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textWatcher
 id text_input_password_toggle
 id textinput_counter
@@ -1708,7 +1708,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id torch
@@ -1929,6 +1928,7 @@ string recognize_file
 string recognize_mic
 string search_menu_title
 string sign_language
+string signification_des_signes
 string status_bar_notification_info_overflow
 string tap_to_translate
 string text_sign_lang_rec

@@ -1,10 +1,13 @@
 package org.tensorflow.lite.examples.objectdetection;
 
 import android.Manifest;
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.pm.PackageManager;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ToggleButton;
@@ -39,7 +42,7 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
     private Model model;
     private SpeechService speechService;
     private static final int PERMISSIONS_REQUEST_RECORD_AUDIO = 1;
-    private Queue<String> queue;
+    private String[] queue;
 
 
     @Override
@@ -51,7 +54,15 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
         txt1 = findViewById(R.id.txt1);
         txt2 = findViewById(R.id.txt2);
         txt3 = findViewById(R.id.txt3);
-        queue = new LinkedList<>();
+        queue = new String[3];
+        queue[0] = "@@@";
+        queue[1] = "@@@";
+        queue[2] = "@@@";
+
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setTitle("Speech To Text");
+        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.BleuDefault)));
 
         findViewById(R.id.recognize_mic).setOnClickListener(view -> recognizeMicrophone());
         ((ToggleButton) findViewById(R.id.pause)).setOnCheckedChangeListener((view, isChecked) -> pause(isChecked));
@@ -65,6 +76,8 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
             initModel();
         }
     }
+
+
 
     private void recognizeMicrophone() {
         if (speechService != null) {
@@ -87,7 +100,7 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
                     this.model = model;
                     resultView.setText(R.string.ready);
                     ((Button) findViewById(R.id.recognize_mic)).setText(R.string.recognize_mic);
-                    findViewById(R.id.recognize_file).setEnabled(true);
+                    //findViewById(R.id.recognize_file).setEnabled(true);
                     findViewById(R.id.recognize_mic).setEnabled(true);
                     findViewById(R.id.pause).setEnabled((false));
                 },
@@ -129,23 +142,22 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
             JSONObject json = new JSONObject(hypothesis);
             String text = json.getString("text");
             Log.i(cat, "onResult: <"+ text + ">");
-            if(queue.size() > 3){
-                queue.remove();
-            }
-            queue.add(text);
-            List list = new ArrayList<String>();
-            for(String el : queue){
-                list.add(el);
-            }
 
-            txt1.setText(list.get(0).toString());
-            if(list.size() > 1) {
-                txt2.setText(list.get(1).toString());
-            }
-            if(list.size()>2){
-                txt3.setText(list.get(2).toString());
-            }
+            queue[0] = queue[1];
+            queue[1] = queue[2];
+            queue[2] = text;
 
+            Log.i(cat, "ADD ON QUEUE");
+            if(queue[0] != "@@@") {
+                txt1.setText(queue[0]);
+            }
+            if(queue[1] != "@@@") {
+                txt2.setText(queue[1]);
+            }
+            if(queue[2] != "@@@"){
+                txt3.setText(queue[2]);
+            }
+            Log.i(cat, "FINISHED PROCESSING!!");
             //resultView.append("onResult: "+text + "\n");
         } catch (JSONException e) {
             e.printStackTrace();
@@ -178,7 +190,7 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
     private void setErrorState(String message) {
         resultView.setText(message);
         ((Button) findViewById(R.id.recognize_mic)).setText(R.string.recognize_mic);
-        findViewById(R.id.recognize_file).setEnabled(false);
+        //findViewById(R.id.recognize_file).setEnabled(false);
         findViewById(R.id.recognize_mic).setEnabled(false);
     }
 

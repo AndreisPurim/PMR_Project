@@ -8,12 +8,12 @@
         "source": "C:\\Users\\mathm\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-37:\\layout\\info_bottom_sheet.xml"
     },
     {
-        "merged": "C:\\Users\\mathm\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-34:\\layout\\activity_see.xml",
-        "source": "C:\\Users\\mathm\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-37:\\layout\\activity_see.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-34:/layout/activity_home_page.xml",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-37:/layout/activity_home_page.xml"
     },
     {
-        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-34:/layout/activity_speeck_to_text2.xml",
-        "source": "org.tensorflow.lite.examples.objectdetection.app-main-37:/layout/activity_speeck_to_text2.xml"
+        "merged": "C:\\Users\\mathm\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-34:\\layout\\activity_see.xml",
+        "source": "C:\\Users\\mathm\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-37:\\layout\\activity_see.xml"
     },
     {
         "merged": "C:\\Users\\mathm\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-34:\\layout\\fragment_camera.xml",

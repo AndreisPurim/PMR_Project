@@ -6,24 +6,37 @@
         android:layout_height="fill_parent"
         android:orientation="vertical"
         android:padding="16dp">
-        <Button
-            android:id="@+id/recognize_file"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/recognize_file"/>
 
         <Button
             android:id="@+id/recognize_mic"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/recognize_mic"/>
+            android:text="@string/recognize_mic"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:backgroundTint="@color/BleuDefault"
+
+            />
 
         <ToggleButton
             android:id="@+id/pause"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:textOff="@string/pause"
-            android:textOn="@string/continueRecognition"/>
+            android:textOn="@string/continueRecognition"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:backgroundTint="@color/BleuDefault"
+            />
 
         <TextView
             android:id="@+id/result_text"
@@ -31,25 +44,57 @@
             android:layout_height="wrap_content"
             android:gravity="bottom"
             android:scrollbars="vertical"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            android:fontFamily="@font/roboto_slab"
+            android:paddingTop="5dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/bottom_sheet_text_color"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            />
 
         <TextView
             android:id="@+id/txt1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text=""
+
+            android:fontFamily="@font/roboto_slab"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            />
 
         <TextView
             android:id="@+id/txt2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text=""
+            android:fontFamily="@font/roboto_slab"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
 
         <TextView
             android:id="@+id/txt3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="" />
+            android:text=""
+            android:fontFamily="@font/roboto_slab"
+            android:paddingTop="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
 
     </LinearLayout>
 

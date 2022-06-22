@@ -1,10 +1,9 @@
 package org.tensorflow.lite.examples.objectdetection
 
 import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.content.Intent
-import android.view.View
+import android.graphics.drawable.ColorDrawable
+import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import org.tensorflow.lite.examples.objectdetection.databinding.ActivityHomePageBinding
@@ -19,6 +18,10 @@ class HomePage : Activity() {
 
         val hearButton : Button = findViewById(R.id.hearButton)
         val viewButton : Button = findViewById(R.id.viewButton)
+
+        val actionBar = actionBar
+        actionBar!!.title = "Hear Me"
+        actionBar.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.BleuDefault)))
 
         hearButton.setOnClickListener {
             Toast.makeText(this, "Start to hear!", Toast.LENGTH_SHORT).show()

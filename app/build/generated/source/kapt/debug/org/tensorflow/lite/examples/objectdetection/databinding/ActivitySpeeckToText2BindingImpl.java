@@ -14,13 +14,12 @@ public class ActivitySpeeckToText2BindingImpl extends ActivitySpeeckToText2Bindi
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.recognize_file, 1);
-        sViewsWithIds.put(R.id.recognize_mic, 2);
-        sViewsWithIds.put(R.id.pause, 3);
-        sViewsWithIds.put(R.id.result_text, 4);
-        sViewsWithIds.put(R.id.txt1, 5);
-        sViewsWithIds.put(R.id.txt2, 6);
-        sViewsWithIds.put(R.id.txt3, 7);
+        sViewsWithIds.put(R.id.recognize_mic, 1);
+        sViewsWithIds.put(R.id.pause, 2);
+        sViewsWithIds.put(R.id.result_text, 3);
+        sViewsWithIds.put(R.id.txt1, 4);
+        sViewsWithIds.put(R.id.txt2, 5);
+        sViewsWithIds.put(R.id.txt3, 6);
     }
     // views
     @NonNull
@@ -31,17 +30,16 @@ public class ActivitySpeeckToText2BindingImpl extends ActivitySpeeckToText2Bindi
     // Inverse Binding Event Handlers
 
     public ActivitySpeeckToText2BindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 8, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private ActivitySpeeckToText2BindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ToggleButton) bindings[3]
+            , (android.widget.ToggleButton) bindings[2]
             , (android.widget.Button) bindings[1]
-            , (android.widget.Button) bindings[2]
+            , (android.widget.TextView) bindings[3]
             , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[6]
-            , (android.widget.TextView) bindings[7]
             );
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);

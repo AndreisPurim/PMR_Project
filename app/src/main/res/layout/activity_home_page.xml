@@ -12,17 +12,17 @@
             android:orientation="vertical"
             android:gravity="center_horizontal">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto_slab"
-                android:gravity="center"
-                android:paddingTop="20dp"
-                android:text="HearMe!"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/BleuDefault"
-                android:textSize="48sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/roboto_slab"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:text="HearMe!"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+<!--                android:textColor="@color/BleuDefault"-->
+<!--                android:textSize="48sp"-->
+<!--                android:textStyle="bold" />-->
 
             <ImageView
                 android:layout_width="200dp"

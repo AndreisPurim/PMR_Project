@@ -4,9 +4,9 @@ package org.tensorflow.lite.examples.objectdetection.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
@@ -24,13 +24,13 @@ public final class ActivitySeeBinding implements ViewBinding {
   public final FragmentContainerView fragmentContainer;
 
   @NonNull
-  public final Toolbar toolbar;
+  public final TextView textView;
 
   private ActivitySeeBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FragmentContainerView fragmentContainer, @NonNull Toolbar toolbar) {
+      @NonNull FragmentContainerView fragmentContainer, @NonNull TextView textView) {
     this.rootView = rootView;
     this.fragmentContainer = fragmentContainer;
-    this.toolbar = toolbar;
+    this.textView = textView;
   }
 
   @Override
@@ -66,13 +66,13 @@ public final class ActivitySeeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.toolbar;
-      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
-      if (toolbar == null) {
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
-      return new ActivitySeeBinding((CoordinatorLayout) rootView, fragmentContainer, toolbar);
+      return new ActivitySeeBinding((CoordinatorLayout) rootView, fragmentContainer, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -20,9 +20,6 @@ public abstract class ActivitySpeeckToText2Binding extends ViewDataBinding {
   public final ToggleButton pause;
 
   @NonNull
-  public final Button recognizeFile;
-
-  @NonNull
   public final Button recognizeMic;
 
   @NonNull
@@ -38,11 +35,10 @@ public abstract class ActivitySpeeckToText2Binding extends ViewDataBinding {
   public final TextView txt3;
 
   protected ActivitySpeeckToText2Binding(Object _bindingComponent, View _root, int _localFieldCount,
-      ToggleButton pause, Button recognizeFile, Button recognizeMic, TextView resultText,
-      TextView txt1, TextView txt2, TextView txt3) {
+      ToggleButton pause, Button recognizeMic, TextView resultText, TextView txt1, TextView txt2,
+      TextView txt3) {
     super(_bindingComponent, _root, _localFieldCount);
     this.pause = pause;
-    this.recognizeFile = recognizeFile;
     this.recognizeMic = recognizeMic;
     this.resultText = resultText;
     this.txt1 = txt1;

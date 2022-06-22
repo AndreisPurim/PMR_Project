@@ -55,6 +55,7 @@
     <string name="recognize_file">Recognize File</string>
     <string name="recognize_mic">Recognize Mic</string>
     <string name="pause">Pause</string>
+    <string name="signification_des_signes">FUCK YOU</string>
     <string name="continueRecognition">Start</string>
     <string name="ready">Ready</string>
 </resources>
