@@ -43,6 +43,8 @@ import org.tensorflow.lite.examples.objectdetection.ObjectDetectorHelper
 import org.tensorflow.lite.examples.objectdetection.R
 import org.tensorflow.lite.examples.objectdetection.databinding.FragmentCameraBinding
 import org.tensorflow.lite.task.vision.detector.Detection
+import java.time.LocalDateTime
+import kotlin.time.Duration
 
 class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
 
@@ -59,6 +61,12 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     private var imageAnalyzer: ImageAnalysis? = null
     private var camera: Camera? = null
     private var cameraProvider: ProcessCameraProvider? = null
+
+    private var letterSet: MutableList<String> = mutableListOf<String>()
+    private val letterSetSize: Int = 7
+    private var subtitleString: String = ""
+    private var maxSubSize: Int = 15
+
 
     /** Blocking camera operations are performed using this executor */
     private lateinit var cameraExecutor: ExecutorService
@@ -302,6 +310,8 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
       imageHeight: Int,
       imageWidth: Int
     ) {
+
+
         if (results.isNullOrEmpty()) {
             Log.d("DEBUG", "Empty list")
         }
@@ -309,10 +319,14 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             var counter = 0
             for (result in results) {
                 Log.d("RESULTS", "Result number $counter")
-                Log.d("RESULTS", result.categories[0].label)
+                Log.d("RESULTS", "Subtitle:" + result.categories[0].label)
                 counter++
             }
         }
+
+        updateSubtitles(results)
+        Log.d("SUBTITLE", subtitleString)
+        Log.d("SUBTITLE", letterSet.toString())
 
         activity?.runOnUiThread {
             fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
@@ -322,8 +336,11 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             fragmentCameraBinding.overlay.setResults(
                 results ?: LinkedList<Detection>(),
                 imageHeight,
-                imageWidth
+                imageWidth,
+                subtitleString
             )
+
+            // TODO: Add data to new overlay
 
             // Force a redraw
             fragmentCameraBinding.overlay.invalidate()
@@ -334,5 +351,65 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         activity?.runOnUiThread {
             Toast.makeText(requireContext(), error, Toast.LENGTH_SHORT).show()
         }
+    }
+
+
+    fun updateSubtitles(results: MutableList<Detection>?) {
+        updateLetterSet(results)
+        val newLetter = getLetter(results)
+        Log.d("SUBTITLES", "new letter = $newLetter")
+        if (subtitleString.length >= maxSubSize) {
+            subtitleString = ""
+        } else {
+            concatSub(newLetter) }
+
+    }
+
+    fun concatSub(letter: String){
+        subtitleString += letter
+//        Log.d("SUBTITLE", "tochar: " +(subtitleString.map { it.toString() }.toTypedArray().toString()))
+//        subtitleString = subtitleString.map { it.toString() }.toTypedArray().distinct().joinToString { "" }
+    }
+
+    fun getLetter(results: MutableList<Detection>?): String {
+        var mostRepeated = ""
+        if (letterSet.size >= letterSetSize) {
+            mostRepeated = getMostRepeated()
+        }
+        if (mostRepeated == "Nothing") {
+            mostRepeated = " "
+        }
+
+        return mostRepeated
+    }
+
+    private fun updateLetterSet(results: MutableList<Detection>?) {
+        var letter = "KHE"
+        if (results.isNullOrEmpty()) {
+            letter = "Nothing"
+        } else {
+            letter = results[0].categories[0].label
+        }
+
+        if (letterSet.size < letterSetSize) {
+            letterSet.add(letter)
+        } else {
+            letterSet = mutableListOf()
+        }
+
+    }
+
+    private fun getMostRepeated(): String {
+        val counter = mutableMapOf<String, Int>()
+        for (letter in letterSet) {
+            if (letter in counter) {
+                counter[letter] = counter[letter]!! + 1
+            } else {
+                counter[letter] = 0
+            }
+        }
+
+        val maxValue = counter.values.maxOrNull()
+        return counter.filter { maxValue == it.value }.keys.first()
     }
 }
