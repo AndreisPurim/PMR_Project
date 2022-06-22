@@ -368,7 +368,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     fun concatSub(letter: String){
         subtitleString += letter
 //        Log.d("SUBTITLE", "tochar: " +(subtitleString.map { it.toString() }.toTypedArray().toString()))
-//        subtitleString = subtitleString.map { it.toString() }.toTypedArray().distinct().joinToString { "" }
+        subtitleString = removeDuplicates(subtitleString)
     }
 
     fun getLetter(results: MutableList<Detection>?): String {
@@ -412,4 +412,28 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         val maxValue = counter.values.maxOrNull()
         return counter.filter { maxValue == it.value }.keys.first()
     }
+
+    private fun removeDuplicates(string: String): String {
+        val newStringArray = ArrayList<String>()
+
+        if (string == "") {
+            return ""
+        }
+        val stringArray = ArrayList(string.map { it.toString() })
+        var lastLetter = stringArray[0]
+        newStringArray.add(lastLetter)
+
+        for (i in 1..(stringArray.size - 1)){
+            val letter = stringArray[i]
+            if (letter != lastLetter){
+                newStringArray.add(letter)
+                lastLetter = letter
+            }
+        }
+
+        return newStringArray.joinToString().replace(", ", "")
+    }
+
+
+
 }
