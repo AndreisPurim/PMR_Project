@@ -4,6 +4,7 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d658dc0ffb05d2bf44951c329137fba3/transformed/transition-1.3.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/a30fefc8d80f306664aec4ebfb2c404b/transformed/transition-1.3.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d658dc0ffb05d2bf44951c329137fba3/transformed/transition-1.3.0/jars/classes.jar!/" />
@@ -15,11 +16,15 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/2faa3ad8c24fdb7771e67fe75f26e15a/transformed/transition-1.3.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.transition/transition/1.3.0/1ab749fa90feb756d9cd154f76fce1d8e557cae/transition-1.3.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/modules-2/files-2.1/androidx.transition/transition/1.3.0/1ab749fa90feb756d9cd154f76fce1d8e557cae/transition-1.3.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/modules-2/files-2.1/androidx.transition/transition/1.3.0/1ab749fa90feb756d9cd154f76fce1d8e557cae/transition-1.3.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

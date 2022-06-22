@@ -4,6 +4,7 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eb828569f825bf1f30f53fdfea482128/transformed/coordinatorlayout-1.0.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/transforms-3/0679a953ea90043a738639fd879fc49e/transformed/coordinatorlayout-1.0.0/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb828569f825bf1f30f53fdfea482128/transformed/coordinatorlayout-1.0.0/res" />
@@ -15,11 +16,15 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/transforms-3/167096a84bc293998e51704ac51ab963/transformed/coordinatorlayout-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.coordinatorlayout/coordinatorlayout/1.0.0/4325b3c4422ad58201ed8dc15ae56bda9accedf2/coordinatorlayout-1.0.0-sources.jar!/" />
       <root url="jar://$USER_HOME$/androidavd/.gradle/caches/modules-2/files-2.1/androidx.coordinatorlayout/coordinatorlayout/1.0.0/4325b3c4422ad58201ed8dc15ae56bda9accedf2/coordinatorlayout-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../androidavd/.gradle/caches/modules-2/files-2.1/androidx.coordinatorlayout/coordinatorlayout/1.0.0/4325b3c4422ad58201ed8dc15ae56bda9accedf2/coordinatorlayout-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
