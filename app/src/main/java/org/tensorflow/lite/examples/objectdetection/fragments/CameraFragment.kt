@@ -302,6 +302,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
       imageHeight: Int,
       imageWidth: Int
     ) {
+        val testString = "This is q test !!!!!!!"
         activity?.runOnUiThread {
 
             /*fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
@@ -312,7 +313,8 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             fragmentCameraBinding.overlay.setResults(
                 results ?: LinkedList<Detection>(),
                 imageHeight,
-                imageWidth
+                imageWidth,
+                testString
             )
 
             // Force a redraw

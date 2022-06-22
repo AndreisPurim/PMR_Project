@@ -35,6 +35,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
     private var boxPaint = Paint()
     private var textBackgroundPaint = Paint()
     private var textPaint = Paint()
+    private var subs: String = ""
 
     private var scaleFactor: Float = 1f
 
@@ -65,6 +66,7 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
         boxPaint.strokeWidth = 8F
         boxPaint.style = Paint.Style.STROKE
     }
+
 
     override fun draw(canvas: Canvas) {
         super.draw(canvas)
@@ -101,18 +103,29 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             // Draw text for detected object
             canvas.drawText(drawableText, left, top + bounds.height(), textPaint)
         }
+        val paint: Paint = Paint()
+        paint.color = Color.WHITE
+        val rectangle = RectF(0F, height-200F, width.toFloat(), height.toFloat())
+        canvas.drawRect(rectangle, paint)
+        //canvas.drawRect(drawableRect, boxPaint)
+        textPaint.color = Color.BLUE
+        textPaint.textSize = 100f
+        canvas.drawText(subs, width/2F-300F, height-80F, textPaint)
     }
 
     fun setResults(
       detectionResults: MutableList<Detection>,
       imageHeight: Int,
       imageWidth: Int,
+      subtitles: String,
     ) {
         results = detectionResults
 
         // PreviewView is in FILL_START mode. So we need to scale up the bounding box to match with
         // the size that the captured images will be displayed.
         scaleFactor = max(width * 1f / imageWidth, height * 1f / imageHeight)
+
+        subs = subtitles
     }
 
     companion object {

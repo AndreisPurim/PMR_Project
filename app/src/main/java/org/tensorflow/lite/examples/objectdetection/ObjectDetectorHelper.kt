@@ -107,7 +107,7 @@ class ObjectDetectorHelper(
             setupObjectDetector()
         }
 
-        // Inference time is the difference between the system time at the start and finish of the
+        // Inference time is the di²²²fference between the system time at the start and finish of the
         // process
         var inferenceTime = SystemClock.uptimeMillis()
 
