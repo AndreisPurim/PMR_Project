@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
     ~ Copyright 2022 The TensorFlow Authors. All Rights Reserved.
     ~
     ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,15 +13,11 @@
     ~ See the License for the specific language governing permissions and
     ~ limitations under the License.
 -->
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/transparent"
-    android:textAlignment="center">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -39,17 +34,7 @@
             app:navGraph="@navigation/nav_graph"
             tools:context=".SeeActivity" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="58dp"
-            android:text="HearMe !"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:gravity="center_vertical"
-            android:paddingLeft="10dp"
-            android:background="@color/BleuDefault"/>
 
 
-    </RelativeLayout>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

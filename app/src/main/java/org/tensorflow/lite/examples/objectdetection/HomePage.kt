@@ -6,9 +6,10 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import org.tensorflow.lite.examples.objectdetection.databinding.ActivityHomePageBinding
 
-class HomePage : Activity() {
+class HomePage : AppCompatActivity() {
     private lateinit var activityHomePageBinding: ActivityHomePageBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +20,7 @@ class HomePage : Activity() {
         val hearButton : Button = findViewById(R.id.hearButton)
         val viewButton : Button = findViewById(R.id.viewButton)
 
-        val actionBar = actionBar
+        val actionBar = supportActionBar
         actionBar!!.title = "Hear Me"
         actionBar.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.BleuDefault)))
 

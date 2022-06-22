@@ -19,6 +19,7 @@
         tools:ignore="AllowBackup">
         <activity
             android:name=".SpeechToText2Activity"
+            android:theme="@style/AppTheme"
             android:exported="false" />
         <activity
             android:name=".SeeActivity"
@@ -32,6 +33,7 @@
             tools:targetApi="O" />
         <activity
             android:name=".HomePage"
+            android:theme="@style/AppTheme"
             android:exported="true">
 
             <!-- Main app intent filter -->

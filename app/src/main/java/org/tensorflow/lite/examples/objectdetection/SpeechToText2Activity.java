@@ -1,18 +1,17 @@
 package org.tensorflow.lite.examples.objectdetection;
 
 import android.Manifest;
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -27,12 +26,8 @@ import org.vosk.android.SpeechService;
 import org.vosk.android.StorageService;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 
-public class SpeechToText2Activity extends Activity implements RecognitionListener {
+public class SpeechToText2Activity extends AppCompatActivity implements RecognitionListener {
 
     private final String cat = "SPEECH_ACTIVITY";
     private TextView resultView;
@@ -59,7 +54,7 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
         queue[1] = "@@@";
         queue[2] = "@@@";
 
-        ActionBar actionBar = getActionBar();
+        ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setTitle("Speech To Text");
         actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.BleuDefault)));
@@ -77,6 +72,11 @@ public class SpeechToText2Activity extends Activity implements RecognitionListen
         }
     }
 
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return super.onSupportNavigateUp();
+    }
 
     private void recognizeMicrophone() {
         if (speechService != null) {

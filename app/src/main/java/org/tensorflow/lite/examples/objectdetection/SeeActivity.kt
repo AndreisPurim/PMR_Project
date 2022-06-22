@@ -16,6 +16,7 @@
 
 package org.tensorflow.lite.examples.objectdetection
 
+import android.graphics.drawable.ColorDrawable
 import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -33,9 +34,19 @@ class SeeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         activitySeeBinding = ActivitySeeBinding.inflate(layoutInflater)
         setContentView(activitySeeBinding.root)
-        //setContentView(R.layout.activity_see)
+//        setContentView(R.layout.activity_see)
+
+
+        supportActionBar!!.title = "Image to Text"
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.BleuDefault)))
 
     }
+
+    override fun onSupportNavigateUp(): Boolean {
+        return super.onSupportNavigateUp()
+    }
+
 
     override fun onBackPressed() {
         if (Build.VERSION.SDK_INT == Build.VERSION_CODES.Q) {
