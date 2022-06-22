@@ -39,7 +39,8 @@
         android:testOnly="true" >
         <activity
             android:name="org.tensorflow.lite.examples.objectdetection.SpeechToText2Activity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/AppTheme" />
         <activity
             android:name="org.tensorflow.lite.examples.objectdetection.SeeActivity"
             android:clearTaskOnLaunch="true"
@@ -54,7 +55,8 @@
             android:exported="false" />
         <activity
             android:name="org.tensorflow.lite.examples.objectdetection.HomePage"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/AppTheme" >
 
             <!-- Main app intent filter -->
             <intent-filter>

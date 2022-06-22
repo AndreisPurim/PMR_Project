@@ -1688,7 +1688,6 @@ int id text2 0x7f0a015f
 int id textSpacerNoButtons 0x7f0a0160
 int id textSpacerNoTitle 0x7f0a0161
 int id textStart 0x7f0a0162
-int id textView 0x7f0a0163
 int id textWatcher 0x7f0a0164
 int id text_input_password_toggle 0x7f0a0165
 int id textinput_counter 0x7f0a0166

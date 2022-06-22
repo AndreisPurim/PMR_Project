@@ -303,6 +303,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
       imageWidth: Int
     ) {
         activity?.runOnUiThread {
+
             fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
                             String.format("%d ms", inferenceTime)
 

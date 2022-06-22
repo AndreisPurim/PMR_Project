@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.databinding:databinding-adapters:7.2.1] C:\Users\mathm\.gradle\caches\transforms-3\90213dc69261d3d938d5f60c6c834443\transformed\databinding-adapters-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-ktx:7.2.1] C:\Users\mathm\.gradle\caches\transforms-3\a44f6cd45ce6be3f1f6d9f9cb1149db5\transformed\jetified-databinding-ktx-7.2.1\AndroidManifest.xml:17:1-24:12
@@ -81,16 +81,16 @@ MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\mathm\.gra
 MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\mathm\.gradle\caches\transforms-3\484c23abd49bb174a978e3b626abafdd\transformed\jetified-tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\mathm\.gradle\caches\transforms-3\baccb065621d3d35ce066e7efc461b26\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\mathm\.gradle\caches\transforms-3\05662bbfe6ab8b5a031e6f65b0fceddf\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
-INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:5:5-59
 		INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:4:5-51
@@ -98,7 +98,7 @@ INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:
 		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12
 		INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:11-69
@@ -127,7 +127,7 @@ ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:11:5-
 	android:name
 		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:11:22-68
 application
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:13:5-52:19
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:13:5-54:19
 MERGED from [com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:32:5-20
 MERGED from [com.otaliastudios:cameraview:2.7.2] C:\Users\mathm\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:32:5-20
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
@@ -177,59 +177,63 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\mathm\.gradle\c
 	android:taskAffinity
 		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:18:9-32
 activity#org.tensorflow.lite.examples.objectdetection.SpeechToText2Activity
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:20:9-23:40
 	android:exported
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:22:13-44
 	android:name
 		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:21:13-50
 activity#org.tensorflow.lite.examples.objectdetection.SeeActivity
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:23:9-32:35
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:24:9-33:35
 	android:clearTaskOnLaunch
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:26:13-45
 	android:exported
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:28:13-37
 	android:resizeableActivity
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:29:13-46
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:30:13-46
 	android:rotationAnimation
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:30:13-49
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:31:13-49
 	android:configChanges
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:26:13-91
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:27:13-91
 	tools:targetApi
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:32:13-32
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:33:13-32
 	android:icon
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:28:13-47
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:29:13-47
 	android:theme
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:31:13-44
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:32:13-44
 	android:name
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:24:13-40
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:25:13-40
 activity#org.tensorflow.lite.examples.objectdetection.SpeechToTextActivity
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:35:13-49
 activity#org.tensorflow.lite.examples.objectdetection.HomePage
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:36:9-51:20
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:37:9-53:20
 	android:exported
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:40:13-36
+	android:theme
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:39:13-44
 	android:name
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:38:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:44:27-74
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:46:27-74
 meta-data#android.notch_support
-ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:48:13-50:40
+ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:50:13-52:40
 	android:value
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:50:17-37
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:52:17-37
 	android:name
-		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:49:17-53
+		ADDED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:51:17-53
 uses-sdk
 INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml
@@ -450,9 +454,9 @@ ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\
 	android:name
 		ADDED from [androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
+IMPLIED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12 reason: tensorflow_lite_support.acceleration.configuration has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-54:12 reason: tensorflow_lite_support.acceleration.configuration requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:2:1-56:12 reason: tensorflow_lite_support.acceleration.configuration requested WRITE_EXTERNAL_STORAGE
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
 	android:authorities
