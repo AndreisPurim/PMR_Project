@@ -7,283 +7,166 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="21"
-9-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml
+9-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="32" />
-10-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml
+10-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml
 11    <!-- Enable instant app support -->
 12    <dist:module dist:instant="true" /> <!-- Declare features -->
-12-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:7:5-40
-12-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:7:18-37
+12-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:7:5-40
+12-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:7:18-37
 13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
-13-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:8:5-60
-13-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:8:19-57
+13-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:8:5-60
+13-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:8:19-57
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:9:5-65
-14-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:9:22-62
+14-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:9:5-65
+14-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:10:5-81
-15-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:10:22-78
+15-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:10:5-81
+15-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:10:22-78
 16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-16-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:11:5-71
-16-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:11:22-68
+16-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:11:5-71
+16-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:11:22-68
 17
 18    <uses-feature
-18-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:22:5-24:36
+18-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:22:5-24:36
 19        android:name="android.hardware.camera.autofocus"
-19-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:23:9-57
+19-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:23:9-57
 20        android:required="false" />
-20-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:24:9-33
+20-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:24:9-33
 21    <uses-feature
-21-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:25:5-27:36
+21-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:25:5-27:36
 22        android:name="android.hardware.camera.front"
-22-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:26:9-53
+22-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:26:9-53
 23        android:required="false" />
-23-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:27:9-33
+23-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:27:9-33
 24    <uses-feature
-24-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:28:5-30:36
+24-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:28:5-30:36
 25        android:name="android.hardware.microphone"
-25-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:29:9-51
+25-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:29:9-51
 26        android:required="false" />
-26-->[com.otaliastudios:cameraview:2.7.2] D:\androidavd\.gradle\caches\transforms-3\23c96a852ed746bc242df77da9229c87\transformed\jetified-cameraview-2.7.2\AndroidManifest.xml:30:9-33
+26-->[com.otaliastudios:cameraview:2.7.2] /home/pablo/.gradle/caches/transforms-3/23c96a852ed746bc242df77da9229c87/transformed/jetified-cameraview-2.7.2/AndroidManifest.xml:30:9-33
 27
 28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 30
 31    <application
-<<<<<<< HEAD
-31-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:13:5-49:19
-=======
-31-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:13:5-54:19
->>>>>>> appbar
+31-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:13:5-51:19
 32        android:allowBackup="true"
-32-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:14:9-35
+32-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:14:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.6.0] D:\androidavd\.gradle\caches\transforms-3\0eb31fd9ac476431ac36498b7fd79075\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+33-->[androidx.core:core:1.6.0] /home/pablo/.gradle/caches/transforms-3/0eb31fd9ac476431ac36498b7fd79075/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
-35-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:15:9-43
+35-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:15:9-43
 36        android:label="@string/app_name"
-36-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:16:9-41
+36-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:16:9-41
 37        android:roundIcon="@mipmap/ic_launcher_round"
-<<<<<<< HEAD
-37-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:17:9-54
-38        android:taskAffinity="" >
-38-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:18:9-32
-39        <activity
-39-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:20:9-22:40
-40            android:name="org.tensorflow.lite.examples.objectdetection.SpeechToText2Activity"
-40-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:21:13-50
-41            android:exported="false" />
-41-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:22:13-37
-42        <activity
-42-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:23:9-32:35
-43            android:name="org.tensorflow.lite.examples.objectdetection.SeeActivity"
-43-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:24:13-40
-44            android:clearTaskOnLaunch="true"
-44-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:25:13-45
-45            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-45-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:26:13-91
-46            android:exported="false"
-46-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:27:13-37
-47            android:icon="@mipmap/ic_launcher"
-47-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:28:13-47
-48            android:resizeableActivity="true"
-48-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:29:13-46
-49            android:rotationAnimation="seamless"
-49-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:30:13-49
-50            android:theme="@style/AppTheme" />
-50-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:31:13-44
-51        <activity
-51-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:33:9-48:20
-52            android:name="org.tensorflow.lite.examples.objectdetection.HomePage"
-52-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:34:13-37
-53            android:exported="true" >
-53-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:35:13-36
-54
-55            <!-- Main app intent filter -->
-56            <intent-filter>
-56-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:38:13-42:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:39:17-69
-57-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:39:25-66
-58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:41:17-77
-59-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:41:27-74
-60            </intent-filter>
-61
-62            <!-- Declare notch support -->
-63            <meta-data
-63-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:45:13-47:40
-64                android:name="android.notch_support"
-64-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:46:17-53
-65                android:value="true" />
-65-->D:\04centralelille\S8\PMR\hearme2\app\src\main\AndroidManifest.xml:47:17-37
-66        </activity>
-67
-68        <uses-library
-68-->[androidx.window:window:1.0.0-alpha09] D:\androidavd\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
-69            android:name="androidx.window.extensions"
-69-->[androidx.window:window:1.0.0-alpha09] D:\androidavd\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
-70            android:required="false" />
-70-->[androidx.window:window:1.0.0-alpha09] D:\androidavd\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
-71        <uses-library
-71-->[androidx.window:window:1.0.0-alpha09] D:\androidavd\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
-72            android:name="androidx.window.sidecar"
-72-->[androidx.window:window:1.0.0-alpha09] D:\androidavd\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
-73            android:required="false" />
-73-->[androidx.window:window:1.0.0-alpha09] D:\androidavd\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
-74
-75        <service
-75-->[androidx.camera:camera-camera2:1.1.0-beta03] D:\androidavd\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
-76            android:name="androidx.camera.core.impl.MetadataHolderService"
-76-->[androidx.camera:camera-camera2:1.1.0-beta03] D:\androidavd\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
-77            android:enabled="false"
-77-->[androidx.camera:camera-camera2:1.1.0-beta03] D:\androidavd\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
-78            android:exported="false" >
-78-->[androidx.camera:camera-camera2:1.1.0-beta03] D:\androidavd\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
-79            <meta-data
-79-->[androidx.camera:camera-camera2:1.1.0-beta03] D:\androidavd\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
-80                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-80-->[androidx.camera:camera-camera2:1.1.0-beta03] D:\androidavd\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
-81                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-81-->[androidx.camera:camera-camera2:1.1.0-beta03] D:\androidavd\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
-82        </service>
-83
-84        <provider
-84-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\androidavd\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-85            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-85-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\androidavd\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-86            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
-86-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\androidavd\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-87            android:exported="false"
-87-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\androidavd\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-88            android:multiprocess="true" />
-88-->[androidx.lifecycle:lifecycle-process:2.2.0] D:\androidavd\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-89
-90        <meta-data
-90-->[com.google.android.gms:play-services-basement:17.6.0] D:\androidavd\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
-91            android:name="com.google.android.gms.version"
-91-->[com.google.android.gms:play-services-basement:17.6.0] D:\androidavd\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
-92            android:value="@integer/google_play_services_version" />
-92-->[com.google.android.gms:play-services-basement:17.6.0] D:\androidavd\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
-93    </application>
-94
-95</manifest>
-=======
-37-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:17:9-54
+37-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:17:9-54
 38        android:taskAffinity=""
-38-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:18:9-32
+38-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:18:9-32
 39        android:testOnly="true" >
 40        <activity
-40-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:20:9-23:40
+40-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:20:9-23:40
 41            android:name="org.tensorflow.lite.examples.objectdetection.SpeechToText2Activity"
-41-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:21:13-50
+41-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:21:13-50
 42            android:exported="false"
-42-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:23:13-37
+42-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:23:13-37
 43            android:theme="@style/AppTheme" />
-43-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:22:13-44
+43-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:22:13-44
 44        <activity
-44-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:24:9-33:35
+44-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:24:9-33:35
 45            android:name="org.tensorflow.lite.examples.objectdetection.SeeActivity"
-45-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:25:13-40
+45-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:25:13-40
 46            android:clearTaskOnLaunch="true"
-46-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:26:13-45
+46-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:26:13-45
 47            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-47-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:27:13-91
+47-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:27:13-91
 48            android:exported="false"
-48-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:28:13-37
+48-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:28:13-37
 49            android:icon="@mipmap/ic_launcher"
-49-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:29:13-47
+49-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:29:13-47
 50            android:resizeableActivity="true"
-50-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:30:13-46
+50-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:30:13-46
 51            android:rotationAnimation="seamless"
-51-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:31:13-49
+51-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:31:13-49
 52            android:theme="@style/AppTheme" />
-52-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:32:13-44
+52-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:32:13-44
 53        <activity
-53-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:34:9-36:40
-54            android:name="org.tensorflow.lite.examples.objectdetection.SpeechToTextActivity"
-54-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:35:13-49
-55            android:exported="false" />
-55-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:36:13-37
-56        <activity
-56-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:37:9-53:20
-57            android:name="org.tensorflow.lite.examples.objectdetection.HomePage"
-57-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:38:13-37
-58            android:exported="true"
-58-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:40:13-36
-59            android:theme="@style/AppTheme" >
-59-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:39:13-44
-60
-61            <!-- Main app intent filter -->
-62            <intent-filter>
-62-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:43:13-47:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:44:17-69
-63-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:44:25-66
+53-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:34:9-50:20
+54            android:name="org.tensorflow.lite.examples.objectdetection.HomePage"
+54-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:35:13-37
+55            android:exported="true"
+55-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:37:13-36
+56            android:theme="@style/AppTheme" >
+56-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:36:13-44
+57
+58            <!-- Main app intent filter -->
+59            <intent-filter>
+59-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:40:13-44:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:41:17-69
+60-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:41:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:43:17-77
+62-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:43:27-74
+63            </intent-filter>
 64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:46:17-77
-65-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:46:27-74
-66            </intent-filter>
-67
-68            <!-- Declare notch support -->
-69            <meta-data
-69-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:50:13-52:40
-70                android:name="android.notch_support"
-70-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:51:17-53
-71                android:value="true" />
-71-->D:\Users\mathm\Desktop\hearme2\app\src\main\AndroidManifest.xml:52:17-37
-72        </activity>
-73
+65            <!-- Declare notch support -->
+66            <meta-data
+66-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:47:13-49:40
+67                android:name="android.notch_support"
+67-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:48:17-53
+68                android:value="true" />
+68-->/home/pablo/Documents/Centrale/PMR/hearme2/app/src/main/AndroidManifest.xml:49:17-37
+69        </activity>
+70
+71        <uses-library
+71-->[androidx.window:window:1.0.0-alpha09] /home/pablo/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:25:9-27:40
+72            android:name="androidx.window.extensions"
+72-->[androidx.window:window:1.0.0-alpha09] /home/pablo/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:26:13-54
+73            android:required="false" />
+73-->[androidx.window:window:1.0.0-alpha09] /home/pablo/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:27:13-37
 74        <uses-library
-74-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
-75            android:name="androidx.window.extensions"
-75-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+74-->[androidx.window:window:1.0.0-alpha09] /home/pablo/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:28:9-30:40
+75            android:name="androidx.window.sidecar"
+75-->[androidx.window:window:1.0.0-alpha09] /home/pablo/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:29:13-51
 76            android:required="false" />
-76-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
-77        <uses-library
-77-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
-78            android:name="androidx.window.sidecar"
-78-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
-79            android:required="false" />
-79-->[androidx.window:window:1.0.0-alpha09] C:\Users\mathm\.gradle\caches\transforms-3\ff0f1d91a37c9390354a73226924cb08\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
-80
-81        <service
-81-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
-82            android:name="androidx.camera.core.impl.MetadataHolderService"
-82-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
-83            android:enabled="false"
-83-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
-84            android:exported="false" >
-84-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
-85            <meta-data
-85-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
-86                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-86-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
-87                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-87-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\mathm\.gradle\caches\transforms-3\456bf0ac534f8b022e79550470447f26\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
-88        </service>
-89
-90        <provider
-90-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-91            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-91-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-92            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
-92-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-93            android:exported="false"
-93-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-94            android:multiprocess="true" />
-94-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\mathm\.gradle\caches\transforms-3\61fb1046f16d40cc317bd0dfe0102124\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-95
-96        <meta-data
-96-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
-97            android:name="com.google.android.gms.version"
-97-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
-98            android:value="@integer/google_play_services_version" />
-98-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\mathm\.gradle\caches\transforms-3\796cb485c6990bf1c3766732e490e335\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
-99    </application>
-100
-101</manifest>
->>>>>>> appbar
+76-->[androidx.window:window:1.0.0-alpha09] /home/pablo/.gradle/caches/transforms-3/ff0f1d91a37c9390354a73226924cb08/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:30:13-37
+77
+78        <service
+78-->[androidx.camera:camera-camera2:1.1.0-beta03] /home/pablo/.gradle/caches/transforms-3/456bf0ac534f8b022e79550470447f26/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:26:9-35:19
+79            android:name="androidx.camera.core.impl.MetadataHolderService"
+79-->[androidx.camera:camera-camera2:1.1.0-beta03] /home/pablo/.gradle/caches/transforms-3/456bf0ac534f8b022e79550470447f26/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:27:13-75
+80            android:enabled="false"
+80-->[androidx.camera:camera-camera2:1.1.0-beta03] /home/pablo/.gradle/caches/transforms-3/456bf0ac534f8b022e79550470447f26/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:28:13-36
+81            android:exported="false" >
+81-->[androidx.camera:camera-camera2:1.1.0-beta03] /home/pablo/.gradle/caches/transforms-3/456bf0ac534f8b022e79550470447f26/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.camera:camera-camera2:1.1.0-beta03] /home/pablo/.gradle/caches/transforms-3/456bf0ac534f8b022e79550470447f26/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:32:13-34:89
+83                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+83-->[androidx.camera:camera-camera2:1.1.0-beta03] /home/pablo/.gradle/caches/transforms-3/456bf0ac534f8b022e79550470447f26/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:33:17-103
+84                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+84-->[androidx.camera:camera-camera2:1.1.0-beta03] /home/pablo/.gradle/caches/transforms-3/456bf0ac534f8b022e79550470447f26/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:34:17-86
+85        </service>
+86
+87        <provider
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/pablo/.gradle/caches/transforms-3/61fb1046f16d40cc317bd0dfe0102124/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+88            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/pablo/.gradle/caches/transforms-3/61fb1046f16d40cc317bd0dfe0102124/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+89            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+89-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/pablo/.gradle/caches/transforms-3/61fb1046f16d40cc317bd0dfe0102124/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+90            android:exported="false"
+90-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/pablo/.gradle/caches/transforms-3/61fb1046f16d40cc317bd0dfe0102124/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+91            android:multiprocess="true" />
+91-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/pablo/.gradle/caches/transforms-3/61fb1046f16d40cc317bd0dfe0102124/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:17.6.0] /home/pablo/.gradle/caches/transforms-3/796cb485c6990bf1c3766732e490e335/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:17.6.0] /home/pablo/.gradle/caches/transforms-3/796cb485c6990bf1c3766732e490e335/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:17.6.0] /home/pablo/.gradle/caches/transforms-3/796cb485c6990bf1c3766732e490e335/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+96    </application>
+97
+98</manifest>

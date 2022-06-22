@@ -43,6 +43,8 @@ import org.tensorflow.lite.examples.objectdetection.ObjectDetectorHelper
 import org.tensorflow.lite.examples.objectdetection.R
 import org.tensorflow.lite.examples.objectdetection.databinding.FragmentCameraBinding
 import org.tensorflow.lite.task.vision.detector.Detection
+import java.time.LocalDateTime
+import kotlin.time.Duration
 
 class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
 
@@ -59,6 +61,12 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     private var imageAnalyzer: ImageAnalysis? = null
     private var camera: Camera? = null
     private var cameraProvider: ProcessCameraProvider? = null
+
+    private var letterSet: MutableList<String> = mutableListOf<String>()
+    private val letterSetSize: Int = 7
+    private var subtitleString: String = ""
+    private var maxSubSize: Int = 15
+
 
     /** Blocking camera operations are performed using this executor */
     private lateinit var cameraExecutor: ExecutorService
@@ -82,9 +90,9 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     }
 
     override fun onCreateView(
-      inflater: LayoutInflater,
-      container: ViewGroup?,
-      savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
         _fragmentCameraBinding = FragmentCameraBinding.inflate(inflater, container, false)
 
@@ -109,102 +117,102 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         }
 
         // Attach listeners to UI control widgets
-        //initBottomSheetControls()
+//        initBottomSheetControls()
     }
-    /*
-    private fun initBottomSheetControls() {
-        // When clicked, lower detection score threshold floor
-        fragmentCameraBinding.bottomSheetLayout.thresholdMinus.setOnClickListener {
-            if (objectDetectorHelper.threshold >= 0.1) {
-                objectDetectorHelper.threshold -= 0.1f
-                updateControlsUi()
-            }
-        }
-
-        // When clicked, raise detection score threshold floor
-        fragmentCameraBinding.bottomSheetLayout.thresholdPlus.setOnClickListener {
-            if (objectDetectorHelper.threshold <= 0.8) {
-                objectDetectorHelper.threshold += 0.1f
-                updateControlsUi()
-            }
-        }
-
-        // When clicked, reduce the number of objects that can be detected at a time
-        fragmentCameraBinding.bottomSheetLayout.maxResultsMinus.setOnClickListener {
-            if (objectDetectorHelper.maxResults > 1) {
-                objectDetectorHelper.maxResults--
-                updateControlsUi()
-            }
-        }
-
-        // When clicked, increase the number of objects that can be detected at a time
-        fragmentCameraBinding.bottomSheetLayout.maxResultsPlus.setOnClickListener {
-            if (objectDetectorHelper.maxResults < 5) {
-                objectDetectorHelper.maxResults++
-                updateControlsUi()
-            }
-        }
-
-        // When clicked, decrease the number of threads used for detection
-        fragmentCameraBinding.bottomSheetLayout.threadsMinus.setOnClickListener {
-            if (objectDetectorHelper.numThreads > 1) {
-                objectDetectorHelper.numThreads--
-                updateControlsUi()
-            }
-        }
-
-        // When clicked, increase the number of threads used for detection
-        fragmentCameraBinding.bottomSheetLayout.threadsPlus.setOnClickListener {
-            if (objectDetectorHelper.numThreads < 4) {
-                objectDetectorHelper.numThreads++
-                updateControlsUi()
-            }
-        }
-
-        // When clicked, change the underlying hardware used for inference. Current options are CPU
-        // GPU, and NNAPI
-        fragmentCameraBinding.bottomSheetLayout.spinnerDelegate.setSelection(0, false)
-        fragmentCameraBinding.bottomSheetLayout.spinnerDelegate.onItemSelectedListener =
-            object : AdapterView.OnItemSelectedListener {
-                override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                    objectDetectorHelper.currentDelegate = p2
-                    updateControlsUi()
-                }
-
-                override fun onNothingSelected(p0: AdapterView<*>?) {
-                    /* no op */
-                }
-            }
-
-        // When clicked, change the underlying model used for object detection
-        fragmentCameraBinding.bottomSheetLayout.spinnerModel.setSelection(0, false)
-        fragmentCameraBinding.bottomSheetLayout.spinnerModel.onItemSelectedListener =
-            object : AdapterView.OnItemSelectedListener {
-                override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                    objectDetectorHelper.currentModel = p2
-                    updateControlsUi()
-                }
-
-                override fun onNothingSelected(p0: AdapterView<*>?) {
-                    /* no op */
-                }
-            }
-    }*/
-    /*
-    // Update the values displayed in the bottom sheet. Reset detector.
-    private fun updateControlsUi() {
-        fragmentCameraBinding.bottomSheetLayout.maxResultsValue.text =
-            objectDetectorHelper.maxResults.toString()
-        fragmentCameraBinding.bottomSheetLayout.thresholdValue.text =
-            String.format("%.2f", objectDetectorHelper.threshold)
-        fragmentCameraBinding.bottomSheetLayout.threadsValue.text =
-            objectDetectorHelper.numThreads.toString()
-
-        // Needs to be cleared instead of reinitialized because the GPU
-        // delegate needs to be initialized on the thread using it when applicable
-        objectDetectorHelper.clearObjectDetector()
-        fragmentCameraBinding.overlay.clear()
-    }*/
+//
+//    private fun initBottomSheetControls() {
+//        // When clicked, lower detection score threshold floor
+//        fragmentCameraBinding.bottomSheetLayout.thresholdMinus.setOnClickListener {
+//            if (objectDetectorHelper.threshold >= 0.1) {
+//                objectDetectorHelper.threshold -= 0.1f
+//                updateControlsUi()
+//            }
+//        }
+//
+//        // When clicked, raise detection score threshold floor
+//        fragmentCameraBinding.bottomSheetLayout.thresholdPlus.setOnClickListener {
+//            if (objectDetectorHelper.threshold <= 0.8) {
+//                objectDetectorHelper.threshold += 0.1f
+//                updateControlsUi()
+//            }
+//        }
+//
+//        // When clicked, reduce the number of objects that can be detected at a time
+//        fragmentCameraBinding.bottomSheetLayout.maxResultsMinus.setOnClickListener {
+//            if (objectDetectorHelper.maxResults > 1) {
+//                objectDetectorHelper.maxResults--
+//                updateControlsUi()
+//            }
+//        }
+//
+//        // When clicked, increase the number of objects that can be detected at a time
+//        fragmentCameraBinding.bottomSheetLayout.maxResultsPlus.setOnClickListener {
+//            if (objectDetectorHelper.maxResults < 5) {
+//                objectDetectorHelper.maxResults++
+//                updateControlsUi()
+//            }
+//        }
+//
+//        // When clicked, decrease the number of threads used for detection
+//        fragmentCameraBinding.bottomSheetLayout.threadsMinus.setOnClickListener {
+//            if (objectDetectorHelper.numThreads > 1) {
+//                objectDetectorHelper.numThreads--
+//                updateControlsUi()
+//            }
+//        }
+//
+//        // When clicked, increase the number of threads used for detection
+//        fragmentCameraBinding.bottomSheetLayout.threadsPlus.setOnClickListener {
+//            if (objectDetectorHelper.numThreads < 4) {
+//                objectDetectorHelper.numThreads++
+//                updateControlsUi()
+//            }
+//        }
+//
+//        // When clicked, change the underlying hardware used for inference. Current options are CPU
+//        // GPU, and NNAPI
+//        fragmentCameraBinding.bottomSheetLayout.spinnerDelegate.setSelection(0, false)
+//        fragmentCameraBinding.bottomSheetLayout.spinnerDelegate.onItemSelectedListener =
+//            object : AdapterView.OnItemSelectedListener {
+//                override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+//                    objectDetectorHelper.currentDelegate = p2
+//                    updateControlsUi()
+//                }
+//
+//                override fun onNothingSelected(p0: AdapterView<*>?) {
+//                    /* no op */
+//                }
+//            }
+//
+//        // When clicked, change the underlying model used for object detection
+//        fragmentCameraBinding.bottomSheetLayout.spinnerModel.setSelection(0, false)
+//        fragmentCameraBinding.bottomSheetLayout.spinnerModel.onItemSelectedListener =
+//            object : AdapterView.OnItemSelectedListener {
+//                override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+//                    objectDetectorHelper.currentModel = p2
+//                    updateControlsUi()
+//                }
+//
+//                override fun onNothingSelected(p0: AdapterView<*>?) {
+//                    /* no op */
+//                }
+//            }
+//    }
+//
+//    // Update the values displayed in the bottom sheet. Reset detector.
+//    private fun updateControlsUi() {
+//        fragmentCameraBinding.bottomSheetLayout.maxResultsValue.text =
+//            objectDetectorHelper.maxResults.toString()
+//        fragmentCameraBinding.bottomSheetLayout.thresholdValue.text =
+//            String.format("%.2f", objectDetectorHelper.threshold)
+//        fragmentCameraBinding.bottomSheetLayout.threadsValue.text =
+//            objectDetectorHelper.numThreads.toString()
+//
+//        // Needs to be cleared instead of reinitialized because the GPU
+//        // delegate needs to be initialized on the thread using it when applicable
+//        objectDetectorHelper.clearObjectDetector()
+//        fragmentCameraBinding.overlay.clear()
+//    }
 
     // Initialize CameraX, and prepare to bind the camera use cases
     private fun setUpCamera() {
@@ -255,9 +263,9 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                             // The image rotation and RGB image buffer are initialized only once
                             // the analyzer has started running
                             bitmapBuffer = Bitmap.createBitmap(
-                              image.width,
-                              image.height,
-                              Bitmap.Config.ARGB_8888
+                                image.width,
+                                image.height,
+                                Bitmap.Config.ARGB_8888
                             )
                         }
 
@@ -297,25 +305,42 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     // Update UI after objects have been detected. Extracts original image height/width
     // to scale and place bounding boxes properly through OverlayView
     override fun onResults(
-      results: MutableList<Detection>?,
-      inferenceTime: Long,
-      imageHeight: Int,
-      imageWidth: Int
+        results: MutableList<Detection>?,
+        inferenceTime: Long,
+        imageHeight: Int,
+        imageWidth: Int
     ) {
-        val testString = "This is q test !!!!!!!"
+
+
+        if (results.isNullOrEmpty()) {
+            Log.d("DEBUG", "Empty list")
+        }
+        else {
+            var counter = 0
+            for (result in results) {
+                Log.d("RESULTS", "Result number $counter")
+                Log.d("RESULTS", "Subtitle:" + result.categories[0].label)
+                counter++
+            }
+        }
+
+        updateSubtitles(results)
+        Log.d("SUBTITLE", subtitleString)
+        Log.d("SUBTITLE", letterSet.toString())
+
         activity?.runOnUiThread {
-
-            /*fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
-                            String.format("%d ms", inferenceTime)*/
-
+//            fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
+//                String.format("%d ms", inferenceTime)
 
             // Pass necessary information to OverlayView for drawing on the canvas
             fragmentCameraBinding.overlay.setResults(
                 results ?: LinkedList<Detection>(),
                 imageHeight,
                 imageWidth,
-                testString
+                subtitleString
             )
+
+            // TODO: Add data to new overlay
 
             // Force a redraw
             fragmentCameraBinding.overlay.invalidate()
@@ -327,4 +352,89 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             Toast.makeText(requireContext(), error, Toast.LENGTH_SHORT).show()
         }
     }
+
+
+    fun updateSubtitles(results: MutableList<Detection>?) {
+        updateLetterSet(results)
+        val newLetter = getLetter(results)
+        Log.d("SUBTITLES", "new letter = $newLetter")
+        if (subtitleString.length >= maxSubSize) {
+            subtitleString = ""
+        } else {
+            concatSub(newLetter) }
+
+    }
+
+    fun concatSub(letter: String){
+        subtitleString += letter
+
+//        Log.d("SUBTITLE", "tochar: " + subtitleString + " " +(subtitleString.replace(Regex("(.)\\1+"),Regex("\\1"))))
+        subtitleString = removeDuplicates(subtitleString)
+    }
+
+    fun getLetter(results: MutableList<Detection>?): String {
+        var mostRepeated = ""
+        if (letterSet.size >= letterSetSize) {
+            mostRepeated = getMostRepeated()
+        }
+        if (mostRepeated == "Nothing") {
+            mostRepeated = " "
+        }
+
+        return mostRepeated
+    }
+
+    private fun updateLetterSet(results: MutableList<Detection>?) {
+        var letter = "KHE"
+        if (results.isNullOrEmpty()) {
+            letter = "Nothing"
+        } else {
+            letter = results[0].categories[0].label
+        }
+
+        if (letterSet.size < letterSetSize) {
+            letterSet.add(letter)
+        } else {
+            letterSet = mutableListOf()
+        }
+
+    }
+
+    private fun getMostRepeated(): String {
+        val counter = mutableMapOf<String, Int>()
+        for (letter in letterSet) {
+            if (letter in counter) {
+                counter[letter] = counter[letter]!! + 1
+            } else {
+                counter[letter] = 0
+            }
+        }
+
+        val maxValue = counter.values.maxOrNull()
+        return counter.filter { maxValue == it.value }.keys.first()
+    }
+
+    private fun removeDuplicates(string: String): String {
+        val newStringArray = ArrayList<String>()
+
+        if (string == "") {
+            return ""
+        }
+        val stringArray = ArrayList(string.map { it.toString() })
+        var lastLetter = stringArray[0]
+        newStringArray.add(lastLetter)
+
+        for (i in 1..(stringArray.size - 1)){
+            val letter = stringArray[i]
+            if (letter != lastLetter){
+                newStringArray.add(letter)
+                lastLetter = letter
+            }
+        }
+
+        return newStringArray.joinToString().replace(", ", "")
+    }
+
+
+
 }

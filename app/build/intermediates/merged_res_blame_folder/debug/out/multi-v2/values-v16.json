@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-3:/values-v16/values-v16.xml",
+            "outputFile": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-33:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "D:\\androidavd\\.gradle\\caches\\transforms-3\\0eb31fd9ac476431ac36498b7fd79075\\transformed\\core-1.6.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/pablo/.gradle/caches/transforms-3/0eb31fd9ac476431ac36498b7fd79075/transformed/core-1.6.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "D:\\androidavd\\.gradle\\caches\\transforms-3\\cc2ce0d1add0cba70fcf237a5196c53e\\transformed\\appcompat-1.3.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/pablo/.gradle/caches/transforms-3/cc2ce0d1add0cba70fcf237a5196c53e/transformed/appcompat-1.3.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
