@@ -104,7 +104,6 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
 
             // Draw text for detected object
             canvas.drawText(drawableText, left, top + bounds.height(), textPaint)
-            canvas.drawText(lettre, xPos, 50F, resultPaint)
         }
     }
 
