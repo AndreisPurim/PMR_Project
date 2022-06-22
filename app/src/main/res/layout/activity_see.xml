@@ -43,10 +43,12 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="58dp"
-            android:text="@string/signification_des_signes"
+            android:text="HearMe !"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:gravity="center_vertical"
-            android:background="@color/white"/>
+            android:paddingLeft="10dp"
+            android:background="@color/BleuDefault"/>
 
 
     </RelativeLayout>
