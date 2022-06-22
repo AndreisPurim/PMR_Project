@@ -109,9 +109,9 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         }
 
         // Attach listeners to UI control widgets
-        initBottomSheetControls()
+        //initBottomSheetControls()
     }
-
+    /*
     private fun initBottomSheetControls() {
         // When clicked, lower detection score threshold floor
         fragmentCameraBinding.bottomSheetLayout.thresholdMinus.setOnClickListener {
@@ -189,8 +189,8 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                     /* no op */
                 }
             }
-    }
-
+    }*/
+    /*
     // Update the values displayed in the bottom sheet. Reset detector.
     private fun updateControlsUi() {
         fragmentCameraBinding.bottomSheetLayout.maxResultsValue.text =
@@ -204,7 +204,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
         // delegate needs to be initialized on the thread using it when applicable
         objectDetectorHelper.clearObjectDetector()
         fragmentCameraBinding.overlay.clear()
-    }
+    }*/
 
     // Initialize CameraX, and prepare to bind the camera use cases
     private fun setUpCamera() {
@@ -303,8 +303,8 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
       imageWidth: Int
     ) {
         activity?.runOnUiThread {
-            fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
-                            String.format("%d ms", inferenceTime)
+            /*fragmentCameraBinding.bottomSheetLayout.inferenceTimeVal.text =
+                            String.format("%d ms", inferenceTime)*/
 
             // Pass necessary information to OverlayView for drawing on the canvas
             fragmentCameraBinding.overlay.setResults(
