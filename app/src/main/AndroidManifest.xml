@@ -31,9 +31,6 @@
             android:theme="@style/AppTheme"
             tools:targetApi="O" />
         <activity
-            android:name=".SpeechToTextActivity"
-            android:exported="false" />
-        <activity
             android:name=".HomePage"
             android:exported="true">
 
